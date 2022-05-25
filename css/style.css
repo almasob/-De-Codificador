@@ -163,7 +163,7 @@
 
 	.area-texto-descriptografar{
 		height: 30rem;
-		margin-top: 40px;
+		margin-top: 110px;
 	}
 
 	.area-texto-criptografar::placeholder{
@@ -171,8 +171,9 @@
 }
 
 	.btdescriptografar, .btcriptografar{
-			width: 13rem;
-			height: 50px;
+			width: 12rem;
+			height: 40px;
+			padding: 0;
 	}
 
 	.botoes{
@@ -187,9 +188,13 @@
 
 	.btcriptografar{
 	position: absolute;
-	top: 350px;
+	top: 360px;
 	
 }
+	.btdescriptografar{
+		position: absolute;
+		top: 415px;
+	}
 
 }
 
