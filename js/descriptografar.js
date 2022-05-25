@@ -8,6 +8,7 @@ botaoDescrip.addEventListener("click",function(){
 	var textoDescriptografado = descriptografar(textoDigitado);
 
 	areaCripto.textContent = textoDescriptografado; // colocamos o texto digitado na area de CRIPTOGRAFIA
+	botaoCopiar.focus();
 })
 
 function descriptografar(texto){
