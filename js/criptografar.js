@@ -12,7 +12,7 @@ botaoCrip.addEventListener("click",function(){
 	var textoCriptografado = criptografar(textoDigitado);
 
 	areaCripto.textContent = textoCriptografado; // colocamos o texto digitado na area de CRIPTOGRAFIA
-	botaoCopiar.focus();
+	areaCripto.focus();
 
 
 })

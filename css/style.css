@@ -162,8 +162,8 @@
 	}
 
 	.area-texto-descriptografar{
-		height: 29rem;
-		margin-top: 110px;
+		height: 30.5rem;
+		margin-top: 150px;
 	}
 
 	.area-texto-criptografar::placeholder{
@@ -181,11 +181,6 @@
 	margin-top: 1rem;
 }
 
-	.btcopiar{
-		margin-left: 23px;
-	}
-
-
 	.btcriptografar{
 	position: absolute;
 	top: 360px;
@@ -193,13 +188,24 @@
 }
 	.btdescriptografar{
 		position: absolute;
-		top: 415px;
+		top: 403px;
+	}
+
+	.btcopiar{
+		position: absolute;
+		top: 460px;
+		margin-left: 22px;
+		width: 9rem;
+		height: 35px;
+
+	}
+
+	.copyright{
+		margin-top:2rem ;
 	}
 
 }
 
 
-
-/* responsivo para tablets
 
 
